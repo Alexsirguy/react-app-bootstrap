@@ -21,7 +21,7 @@ Contain the application routes. (Index.js is the main routes for public users an
 
 Perform Post Request.
 
-import Request from './services/Request';
+ import Request from './services/Request';
 
   const handleSubmit = async(e)=>{ 
     e.preventDefault();
@@ -34,20 +34,20 @@ import Request from './services/Request';
       }
      try{
       //get the response from API   
-      const response = await http.post("/",data)
-      if(response.status == 'true'){
+       const response = await http.post("/",data)
+       if(response.status == 'true'){
        //perform success response
       
-      }else{
+        }else{
        //perform fail response
-      }
+       }
      } catch(e){
       //perform error response
      }
     
    
-   return false;
-  }
+      return false;
+ }
 
 ## Available Scripts
 
