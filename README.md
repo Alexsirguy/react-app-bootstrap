@@ -20,7 +20,7 @@ Contain the application routes. (Index.js is the main routes for public users an
 ## Using Request.js
 
 Perform Post Request.
-
+```js
  import Request from './services/Request';
 
   const handleSubmit = async(e)=>{ 
@@ -48,7 +48,7 @@ Perform Post Request.
    
       return false;
  }
-
+```
 ## Available Scripts
 
 In the project directory, you can run:
